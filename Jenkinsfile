@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    tools {
-        docker 'latest'
-    }
     stages {
         stage('Check Docker') {
             steps {
